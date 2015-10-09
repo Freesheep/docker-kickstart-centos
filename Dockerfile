@@ -2,7 +2,7 @@ FROM linuxserver/baseimage
 MAINTAINER Chase Bolt <chase.bolt@gmail.com>
 
 RUN apt-get -qy update && apt-get -qy upgrade && \
-  apt-get install -qy genisoimage syslinux xorriso && \
+  apt-get install -qy xorriso && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
