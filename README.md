@@ -8,11 +8,11 @@ overridden through the environment variable.
 ## Usage
 
 ```
-docker create \
+docker run \
   --name=kickstart-centos \
   -v </path/to/data>:/data \
   -v </path/to/config>:/config \
-  chasebolt/kickstart-centos
+  cbolt/kickstart-centos
 ```
 
 **Parameters**
