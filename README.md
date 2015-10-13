@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/chasebolt/docker-kickstart-centos.svg?branch=master)](https://travis-ci.org/chasebolt/docker-kickstart-centos)
+
 # cbolt/kickstart-centos
 
 Builds an ISO with an embedded kickstart file for USB/CD installs.
